@@ -51,4 +51,3 @@ move_to_archival_task = GCSToGCSOperator(
 
 # Set task dependencies
 load_to_stage_task >> move_to_archival_task 
-# pavan
